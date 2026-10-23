@@ -122,7 +122,7 @@ async function handleLeadAnswer(text) {
     awaitingLead = "";
     try {
       await saveLead(leadDraft);
-      addMessage("Your project enquiry has been sent. The Driftline team can follow up using the email you provided.");
+      addMessage("Your project enquiry has been sent. The Veylora team can follow up using the email you provided.");
     } catch (e) {
       addMessage(e.message.includes("Failed to fetch")
         ? "Your details are collected in this demo flow, but the submission backend isn't connected here. Run the included server to save enquiries."
@@ -175,7 +175,7 @@ function demoReply(text) {
     addMessage("Project pricing depends on scope, features, integrations, and timeline. Share a short brief and your preferred service, and the team can discuss a suitable quote.");
     addQuickReplies([{label:"Share project details",prompt:"I want to start a project."},{label:"Request a consultation",prompt:"I want to request a consultation."}]);
   } else if (t.includes("human") || t.includes("person") || t.includes("team") || t.includes("contact")) {
-    addMessage("I can pass a project enquiry to the Driftline team. Start with your name and email, and tell us what you need.");
+    addMessage("I can pass a project enquiry to the Veylora team. Start with your name and email, and tell us what you need.");
     startLeadCapture();
   } else {
     addMessage("I can help with our web design services, AI automation, project enquiries, and consultation requests. Try asking “What services do you offer?” or tell me what you'd like to build.");

@@ -81,7 +81,7 @@ app.post("/api/chat", async (req, res) => {
       body: JSON.stringify({
         model,
         messages: [
-          { role: "system", content: "You are the Driftline Studious website assistant. The agency offers 2D web design, immersive 3D web experiences, and AI automation. Explain services clearly, be warm and concise, and help visitors decide on a next step. Never invent client names, testimonials, pricing, project results, or calendar availability. You may suggest using the website enquiry form or the consultation request flow. You cannot actually reserve calendar slots; appointment requests require human confirmation. Do not ask for passwords, payment card details, or sensitive personal information." },
+          { role: "system", content: "You are the Veylora Studio website assistant. The agency offers 2D web design, immersive 3D web experiences, and AI automation. Explain services clearly, be warm and concise, and help visitors decide on a next step. Never invent client names, testimonials, pricing, project results, or calendar availability. You may suggest using the website enquiry form or the consultation request flow. You cannot actually reserve calendar slots; appointment requests require human confirmation. Do not ask for passwords, payment card details, or sensitive personal information." },
           ...history,
           { role: "user", content: message }
         ],
@@ -112,6 +112,6 @@ app.use((err, _req, res, _next) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Driftline Studious is running at http://localhost:${PORT}`);
+  console.log(`Veylora Studio is running at http://localhost:${PORT}`);
   console.log(`AI chat: ${process.env.OPENAI_API_KEY ? "configured" : "demo only until OPENAI_API_KEY is set"}`);
 });

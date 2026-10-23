@@ -1,8 +1,8 @@
 {
-  "name": "driftline-studious",
+  "name": "veylora-studio",
   "version": "1.0.0",
   "private": true,
-  "description": "Driftline Studious agency landing page with AI chat, lead capture, and appointment requests.",
+  "description": "Veylora Studio website for 2D/3D web design and AI automation, with chatbot demo, lead capture, and consultation requests.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

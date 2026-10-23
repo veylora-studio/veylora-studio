@@ -1,6 +1,16 @@
-# Veylora Studios
+# Veylora Studio
 
-A responsive, premium-dark landing page for a digital agency offering 2D web design, 3D web experiences, and AI automation. It includes a floating chatbot with a quick demo mode, optional real AI integration, lead capture, and consultation request forms.
+Updated replacement website package for **Veylora Studio**, a digital agency offering 2D web design, 3D web experiences, and AI automation. It includes a dark premium visual system with purple and electric-blue accents, a custom V monogram logo, portfolio concepts, a quick-demo chatbot, optional real AI integration, lead capture, and consultation request forms.
+
+## Replacing your existing GitHub website
+
+1. Download this ZIP and extract it on your phone or computer.
+2. Open your existing GitHub repository: `https://github.com/veylora-studio/veylora-studio`.
+3. Replace the existing `index.html`, `styles.css`, `app.js`, `server.js`, `package.json`, and `README.md` with the matching files from this folder. Add the new `logo.svg` file.
+4. Do **not** upload `.env`, `node_modules`, or the `data` folder. Never place an AI API key in website files.
+5. Commit the changes to the `main` branch. Render should redeploy automatically if it is connected to this repository.
+
+The ZIP keeps the same main filenames as the existing site so you can replace them rather than rebuild the project. Keep any existing hosting environment variables in Render.
 
 ## What's included
 
@@ -19,7 +29,7 @@ A responsive, premium-dark landing page for a digital agency offering 2D web des
 ## Run locally
 
 1. Download and extract this project.
-2. Open a terminal inside the extracted `driftline-studious` folder.
+2. Open a terminal inside the extracted `veylora-studio` folder.
 3. Install dependencies:
 
    ```bash

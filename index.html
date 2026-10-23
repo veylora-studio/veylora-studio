@@ -4,19 +4,20 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#080811">
-  <meta name="description" content="Driftline Studious builds thoughtful 2D and 3D websites and practical AI automations for ambitious businesses.">
-  <title>Driftline Studious — Digital, Designed to Move</title>
+  <meta name="description" content="Veylora Studio builds thoughtful 2D and 3D websites and practical AI automations for ambitious businesses.">
+  <title>Veylora Studio — Digital, Designed to Move</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="logo.svg">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="announcement"><span class="status-dot"></span> Independent digital studio · Taking on select projects</div>
   <header class="site-header">
-    <a class="brand" href="#home" aria-label="Driftline Studious home">
-      <span class="brand-mark">D<span>↗</span></span>
-      <span class="brand-name">DRIFTLINE <b>STUDIOUS</b></span>
+    <a class="brand" href="#home" aria-label="Veylora Studio home">
+      <span class="brand-mark" aria-hidden="true">V<span>·</span></span>
+      <span class="brand-name">VEYLORA <b>STUDIO</b></span>
     </a>
     <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
     <nav id="mainNav">
@@ -38,7 +39,7 @@
         <div class="hero-proof"><div class="avatar-stack"><i>D</i><i>S</i><i>+</i></div><p><b>Built for ambitious teams</b><br><span>Strategy-led. Detail-focused. Human-first.</span></p></div>
       </div>
       <div class="hero-visual" aria-label="Stylized preview of a digital studio website">
-        <div class="visual-top"><span class="window-dots"><i></i><i></i><i></i></span><span>DRIFTLINE / DIGITAL SYSTEMS</span><span>↗</span></div>
+        <div class="visual-top"><span class="window-dots"><i></i><i></i><i></i></span><span>VEYLORA / DIGITAL SYSTEMS</span><span>↗</span></div>
         <div class="visual-content">
           <div class="visual-label">A BETTER KIND OF DIGITAL</div>
           <div class="visual-headline">Make your<br><em>next move</em><br>matter.</div>
@@ -46,8 +47,6 @@
           <div class="visual-rule"></div>
           <div class="visual-stats"><div><strong>01</strong><span>Clear thinking</span></div><div><strong>02</strong><span>Distinct design</span></div><div><strong>03</strong><span>Smarter systems</span></div></div>
         </div>
-        <div class="visual-tag tag-top"><span class="tag-icon">✳</span> Thoughtful by design</div>
-        <div class="visual-tag tag-bottom"><span class="tag-pulse"></span> Digital, with purpose</div>
       </div>
       <div class="hero-scroll"><span></span> SCROLL TO EXPLORE</div>
     </section>
@@ -83,13 +82,13 @@
       <form class="contact-form" id="leadForm"><h3>Start a conversation</h3><label for="name">Your name</label><input id="name" name="name" placeholder="Jane Smith" required maxlength="100"><label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@company.com" required maxlength="180"><label for="service">What do you need?</label><select id="service" name="service" required><option value="">Choose a service</option><option>2D web design</option><option>3D web experience</option><option>AI automation</option><option>Website + AI automation</option><option>Not sure yet</option></select><label for="message">A little about your project</label><textarea id="message" name="message" placeholder="What would you like to make possible?" rows="3" maxlength="2000"></textarea><button class="button button-primary form-submit" type="submit">Send project enquiry <span>↗</span></button><p class="form-status" id="leadStatus" aria-live="polite"></p><p class="form-small">Your details are used to respond to your enquiry. Connect a secure backend before publishing.</p></form>
     </div></section>
   </main>
-  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">D<span>↗</span></span><span class="brand-name">DRIFTLINE <b>STUDIOUS</b></span></a><p>Digital, designed to move.</p><div><a href="#services">Services</a><a href="#work">Work</a><a href="#contact">Contact</a></div><span class="copyright">© <span id="year"></span> Driftline Studious</span></footer>
+  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">V<span>·</span></span><span class="brand-name">VEYLORA <b>STUDIO</b></span></a><p>Digital, designed to move.</p><div><a href="#services">Services</a><a href="#work">Work</a><a href="#contact">Contact</a></div><span class="copyright">© <span id="year"></span> Veylora Studio</span></footer>
 
-  <button class="chat-launcher" id="chatLauncher" aria-label="Open Driftline AI assistant" aria-expanded="false"><span class="chat-launcher-icon">✳</span><span class="chat-launcher-label">Ask our AI</span></button>
-  <section class="chat-panel" id="chatPanel" aria-label="Driftline AI assistant" hidden>
-    <div class="chat-header"><div class="chat-avatar">D<span>✳</span></div><div class="chat-header-copy"><b>Driftline Assistant</b><span><i class="status-dot"></i> Here to help you move forward</span></div><button id="chatClose" class="chat-close" aria-label="Close chat">×</button></div>
+  <button class="chat-launcher" id="chatLauncher" aria-label="Open Veylora Studio AI assistant" aria-expanded="false"><span class="chat-launcher-icon">✳</span><span class="chat-launcher-label">Ask our AI</span></button>
+  <section class="chat-panel" id="chatPanel" aria-label="Veylora Studio AI assistant" hidden>
+    <div class="chat-header"><div class="chat-avatar">V<span>✳</span></div><div class="chat-header-copy"><b>Veylora Assistant</b><span><i class="status-dot"></i> Here to help you move forward</span></div><button id="chatClose" class="chat-close" aria-label="Close chat">×</button></div>
     <div class="chat-mode"><span>ASSISTANT MODE</span><select id="chatMode" aria-label="Assistant mode"><option value="demo">Quick demo</option><option value="ai">AI conversation</option></select></div>
-    <div class="chat-messages" id="chatMessages" aria-live="polite"><div class="message assistant">Hey there! 👋 I'm the Driftline assistant. I can explain our services, help you share a project brief, or guide you toward an appointment request. What are you working on?</div><div class="quick-replies"><button data-prompt="What services do you offer?">Your services</button><button data-prompt="I want to start a project.">Start a project</button><button data-prompt="How can I request a consultation?">Request a consultation</button></div></div>
+    <div class="chat-messages" id="chatMessages" aria-live="polite"><div class="message assistant">Hey there! 👋 I'm the Veylora assistant. I can explain our services, help you share a project brief, or guide you toward an appointment request. What are you working on?</div><div class="quick-replies"><button data-prompt="What services do you offer?">Your services</button><button data-prompt="I want to start a project.">Start a project</button><button data-prompt="How can I request a consultation?">Request a consultation</button></div></div>
     <form id="chatForm" class="chat-input-row"><input id="chatInput" placeholder="Write a message..." aria-label="Message" maxlength="1200" autocomplete="off" required><button aria-label="Send message" type="submit">↑</button></form>
     <div class="chat-foot">AI can make mistakes. Please don't share sensitive information.</div>
   </section>
