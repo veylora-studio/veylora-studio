@@ -1,4 +1,4 @@
-# Driftline Studious
+# Veylora Studios
 
 A responsive, premium-dark landing page for a digital agency offering 2D web design, 3D web experiences, and AI automation. It includes a floating chatbot with a quick demo mode, optional real AI integration, lead capture, and consultation request forms.
 
